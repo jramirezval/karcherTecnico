@@ -1,108 +1,176 @@
 /*Encabezado*/
+
+
 /* define propiedades de encaezado*/
+
 header {
-  background-color: yellow !important;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    background-color: yellow !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 /*Fin encabezado*/
+
+
 /*define margenes*/
+
 .no-gutters {
-  padding-left: 0 !important;
-  padding-right: 0 !important; }
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 
 /*Navegador*/
+
+
 /* define propiedades de navegador*/
+
 nav {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 2rem;
-  margin-top: 0px; }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 0px;
+}
 
 .nav-link {
-  color: black;
-  font-size: 1.5rem; }
+    color: black;
+    font-size: 1.5rem;
+}
 
 .nav-item :hover {
-  background-color: lightgray;
-  color: yellow;
-  border-radius: 2rem; }
+    background-color: lightgray;
+    color: yellow;
+    border-radius: 2rem;
+}
 
 .nav-item {
-  padding-left: 2rem;
-  padding-right: 2rem; }
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 
 /* Fin de Navegador*/
+
+
 /*Pie de pagina*/
+
 footer {
-  margin-top: 2rem; }
+    margin-top: 2rem;
+}
 
 .mb-0 {
-  margin-bottom: 0 !important; }
+    margin-bottom: 0 !important;
+}
+
 
 /* Fin de pie de pagina*/
+
+
 /*estilo de parrafo*/
+
 h1 {
-  font-size: 2rem; }
+    font-size: 2rem;
+}
 
 h5 {
-  font-size: 1rem; }
+    font-size: 1rem;
+}
 
 h3 {
-  font-size: 2rem; }
+    font-size: 2rem;
+}
+
 
 /*Main index*/
+
+
 /* Define espacios entre cartas main del index*/
+
 .card {
-  margin-left: 3rem;
-  margin-right: 2rem; }
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
 
 /*Fin Main index*/
+
+ul {
+    list-style: none;
+}
+
+
 /*Tabla seminario*/
+
+
 /* define propiedades de tabla seminario*/
+
 table {
-  text-align: center;
-  background-color: lightgray; }
+    text-align: center;
+    background-color: lightgray;
+}
 
 thead {
-  background-color: yellow;
-  color: black; }
+    background-color: yellow;
+    color: black;
+}
 
 #table__p--align {
-  text-align: left; }
+    text-align: left;
+}
+
 
 /*Fin tabla seminario*/
+
+
 /*carousel seccion galeria */
+
+
 /* define dimensiones y caracteristicas de carousel*/
+
 .carousel-item {
-  height: 25rem;
-  min-height: 15rem;
-  margin-left: 3rem; }
+    height: 25rem;
+    min-height: 15rem;
+    margin-left: 3rem;
+}
 
 .card-img-top {
-  width: 100%;
-  height: 25rem !important; }
+    width: 100%;
+    height: 25rem !important;
+}
+
 
 /*carousel */
+
+
 /*centrado imagenes texto*/
+
 .img__center {
-  display: block;
-  margin-right: auto;
-  margin-left: auto; }
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .text__center {
-  text-align: center; }
+    text-align: center;
+}
 
 ul li h3 {
-  text-align: center; }
+    text-align: center;
+}
 
 .a__download {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: blue;
-  text-align: center; }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+}
 
 a {
-  text-decoration: none;
-  color: inherit; }
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /*fin centrado texto*/
+
 .navbar-expand-lg {
-  color: black; }
+    color: black;
+}

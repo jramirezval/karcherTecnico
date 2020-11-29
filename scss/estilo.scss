@@ -1,0 +1,188 @@
+$font-sizes: ('small':1.5rem, 'medium':2rem ,'xsmall':1rem);
+
+@mixin font-type {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+@mixin text-aligns {
+    text-align: center;
+    
+}
+
+@mixin highligth-text {
+
+    @include font-type;
+    color: blue;
+    @include text-aligns;
+}
+
+
+/*Encabezado*/
+
+
+/* define propiedades de encaezado*/
+
+header {
+    background-color: yellow !important;
+    @include font-type
+}
+
+
+/*Fin encabezado*/
+
+
+/*define margenes*/
+
+.no-gutters {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/*Navegador*/
+
+
+/* define propiedades de navegador*/
+
+nav {
+    @include font-type;
+    margin-bottom: 2rem;
+    margin-top: 0px;
+}
+
+.nav-link {
+    color: black;
+    font-size: map-get($map: $font-sizes, $key:small );
+}
+
+.nav-item :hover {
+    background-color: lightgray;
+    color: yellow;
+    border-radius: 2rem;
+}
+
+.nav-item {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/* Fin de Navegador*/
+
+
+/*Pie de pagina*/
+
+footer {
+    margin-top: 2rem;
+}
+
+.mb-0 {
+
+    margin-bottom: 0 !important;
+}
+/* Fin de pie de pagina*/
+
+
+/*estilo de parrafo*/
+
+h1 {
+    font-size: map-get($map: $font-sizes, $key:medium );
+}
+
+h5 {font-size:map-get($map: $font-sizes, $key:xsmall );}
+
+h3{font-size: map-get($map: $font-sizes, $key:medium );}
+
+
+
+
+/*Main index*/
+
+
+/* Define espacios entre cartas main del index*/
+
+.card {
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+
+/*Fin Main index*/
+
+
+/*Tabla seminario*/
+
+
+/* define propiedades de tabla seminario*/
+
+table {
+    text-align: center;
+    background-color: lightgray;
+}
+
+thead {
+    background-color: yellow;
+    color: black;
+}
+
+#table__p--align{
+    text-align: left;
+}
+
+
+/*Fin tabla seminario*/
+
+
+/*carousel seccion galeria */
+
+
+/* define dimensiones y caracteristicas de carousel*/
+
+.carousel-item {
+    height: 25rem;
+    min-height: 15rem;
+    margin-left: 3rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25rem !important;
+}
+
+
+/*carousel */
+
+
+/*centrado imagenes texto*/
+
+.img__center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text__center {
+    @include text-aligns;
+}
+
+ul li h3 {
+    @include text-aligns;
+}
+
+.a__download {
+
+@include highligth-text 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*fin centrado texto*/
+
+.navbar-expand-lg {
+    color: black;
+}
